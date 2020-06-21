@@ -1,0 +1,135 @@
+div.flex-dashboard {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.flex-dashboard header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.flex-dashboard header a {
+    text-decoration: none;
+    color: #d42b11;
+    font-weight: 700;
+    font-size: 13px;
+
+}
+sidebar {
+    display: block;
+    height: 100%;
+    width: 210px;
+    background-color: white;
+    border-right: 1px solid #ded1c5;
+}
+
+sidebar .sidebar-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    height: 60px;
+    border-bottom: 1px solid #ded1c5;
+}
+
+sidebar .sidebar-title img {
+    height: 50px;
+    width: 80px;
+}
+
+div.menu ul li {
+    border-bottom: 1px solid #ded1c5;
+    padding: 11px 10px;
+    width: 100%;
+}
+
+div.menu ul li a {
+    font-weight: 700;
+    font-size: 13px;
+    color: #d42b11;
+    text-decoration: none;
+}
+
+div.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: block;
+    height: 100%;
+    background-color: #ded1c5;
+    width: calc(100% - 210px);
+}
+
+main .main-content {
+    padding: 30px;
+    width: 100%;
+    height: calc(100% - 60px);
+    overflow-y: auto;
+}
+
+div.dashboard-content {
+    padding: 10px 0;
+
+}
+
+.dashboard-flex-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dashboard-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    max-width: 240px;
+    height: 300px;
+    background-color: white;
+}
+
+.dashboard-box:hover {
+    box-shadow: 0 0 1rem rgba(63, 60, 60, 0.4);
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+div.box-icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    color: #d42b11;
+}
+
+div.box-icon svg {
+    font-size: 25px;
+}
+
+div.value, span {
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 2px;
+    font-weight: 700;
+}
+
+div.type {
+    font-size: 12px;
+    margin-top: 20px;
+    font-weight: 700;
+}

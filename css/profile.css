@@ -1,0 +1,87 @@
+div.profile-parent {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 2rem;
+}
+
+div.profile-img {
+    width: 40%;
+}
+
+div.profile-form {
+    padding-left: 20px;
+    width: 60%;
+}
+
+div.profile-form button {
+    margin-top: 25px;
+}
+
+div.profile-form span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3px;
+    font-weight: 700;
+    font-size: 13px;
+    color: #d42b11;
+}
+
+div.profile-form input {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+div.profile-form select {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+div.profile-form button {
+    margin-top: 20px; 
+    width: 100%;
+    border: none;
+    background-color: #d42b11;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    padding: 6px;
+}
+
+div.profile-form button:hover {
+    border: none;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+div.profile-form .custom-file-label {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+div.img {
+    height: 700px;
+    width: 380px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    background-image: url(/images/FotoFitness.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
